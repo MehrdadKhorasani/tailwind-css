@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./*.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        zanz: ["Mulish", "sans-serif"],
+        molo: ["Rokkitt", "monospace"],
+      },
+    },
   },
   plugins: [],
 };
